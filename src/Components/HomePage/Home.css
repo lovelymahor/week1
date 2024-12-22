@@ -1,0 +1,51 @@
+.home-page {
+    text-align: center;
+    margin-top: 100px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .home-page h1 {
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  .home-page p {
+    font-size: 1.2rem;
+    margin: 20px 0;
+    color: #666;
+  }
+  
+  .auth-options {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+  }
+  
+  .auth-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .login-button {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .login-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .register-button {
+    background-color: #28a745;
+    color: #fff;
+  }
+  
+  .register-button:hover {
+    background-color: #1e7e34;
+  }
+  

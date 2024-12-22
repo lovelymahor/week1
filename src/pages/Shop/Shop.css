@@ -1,0 +1,30 @@
+.shop-page {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .shop-page h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .product-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+    justify-items: center;
+    margin-top: 30px;
+  }
+  
+  .product-list .product-card {
+    width: 100%;
+    max-width: 280px; /* Restrict max width of each product card */
+  }
+  
+  .product-list .product-card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+  }
+  
